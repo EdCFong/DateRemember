@@ -1,0 +1,16 @@
+﻿/osver:6.2
+/appcontainer
+"/runtime:mrt100_app"
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\eduar\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\MDIL\DateRemember 5.mdilexe"
+"/i:D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\Native\DateRemember 5.exe"
+"/pdbAltPath:D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\x64\Release\ilc"
+"/res:D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Users\eduar\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

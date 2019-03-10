@@ -1,0 +1,86 @@
+﻿<Page
+    x:Class="DateRemember_5.Add_Date"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DateRemember_5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="Main_Grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/sky.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="3*" MinHeight="80"/>
+        </Grid.RowDefinitions>
+        <DatePicker x:Name="DatePicker" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Margin="10,10,10,0"  VerticalAlignment="Center" YearVisible="False" DateChanged="DatePicker_DateChanged" MinHeight="35"/>
+        <DatePicker x:Name="DatePicker_for_narrow" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Visibility="Collapsed" HorizontalAlignment="Center" Margin="10,10,10,0"  VerticalAlignment="Center" YearVisible="False" DateChanged="DatePicker_for_narrow_DateChanged"/>
+        <TextBlock x:Name="Name_textBlock" Grid.Row="1" Grid.Column="0" x:Uid="escriba_nombre" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,0" FontFamily="Papyrus"/>
+        <TextBox x:Name="Name_textBox" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0,10,0" FontFamily="Segoe UI" />
+        <TextBlock x:Name="Description_textBlock" x:Uid="escriba_descripcion" Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="20,0,0,0" FontFamily="Papyrus"/>
+        <TextBox x:Name="Descripcion_textBox" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Stretch" Margin="10,0,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch" FontFamily="Segoe UI"/>
+        <Grid x:Name="Buttons_Grid" Grid.Row="5" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Boton_Ok" x:Uid="ok" Content="" Grid.Column="0" Margin="15,15" Click="Boton_Ok_Click"/>
+            <Button x:Name="Boton_Cancel" x:Uid="Cancel" Content="" Grid.Column="1" Margin="15,15" Click="Boton_Cancel_Click"/>
+            </Grid>
+
+        <StackPanel x:Name="time_options_StackPanel" Orientation="Vertical" Background="#882E94F0" Grid.Column="1" Grid.Row="0" Grid.RowSpan="6" Margin="20,20" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+            <RadioButton x:Name="_15_minutes_RadioButton" GroupName="wide" x:Uid="15min" Content="" Checked="_15_minutes_RadioButton_Checked"/>
+            <RadioButton x:Name="_4_hours_RadioButton" GroupName="wide" x:Uid="4hours" Content="" Checked="_4_hours_RadioButton_Checked"/>
+            <RadioButton x:Name="_8_hours_RadioButton" GroupName="wide" x:Uid="8hours" Content="" Checked="_8_hours_RadioButton_Checked"/>
+            <RadioButton x:Name="_1_days_RadioButton" GroupName="wide" x:Uid="1day" Content="" Checked="_1_days_RadioButton_Checked"/>
+            <RadioButton x:Name="_3_days_RadioButton" GroupName="wide" x:Uid="3days" Content="" Checked="_3_days_RadioButton_Checked"/>
+            <RadioButton x:Name="_1_week_RadioButton" GroupName="wide" x:Uid="1week" Content="" Checked="_1_week_RadioButton_Checked"/>
+            <RadioButton x:Name="no_notif_RadioButton" GroupName="wide" x:Uid="No_show notifications" Content="" Checked="No_notif_RadioButton_Checked"/>
+        </StackPanel>
+        <StackPanel x:Name="time_options_StackPanel_for_narrow" Orientation="Vertical" Background="#882E94F0" Grid.Column="1" Grid.Row="2" Grid.RowSpan="3" Margin="15,0,15,0" ScrollViewer.VerticalScrollBarVisibility="Hidden" Visibility="Collapsed">
+            <RadioButton x:Name="_15_minutes_RadioButton1" GroupName="narrow" x:Uid="15min" Content="" Checked="_15_minutes_RadioButton_Checked"/>
+            <RadioButton x:Name="_4_hours_RadioButton1" GroupName="narrow" x:Uid="4hours" Content="" Checked="_4_hours_RadioButton_Checked"/>
+            <RadioButton x:Name="_8_hours_RadioButton1" GroupName="narrow" x:Uid="8hours" Content="" Checked="_8_hours_RadioButton_Checked"/>
+            <RadioButton x:Name="_1_days_RadioButton1" GroupName="narrow" x:Uid="1day" Content="" Checked="_1_days_RadioButton_Checked"/>
+            <RadioButton x:Name="_3_days_RadioButton1" GroupName="narrow" x:Uid="3days" Content="" Checked="_3_days_RadioButton_Checked"/>
+            <RadioButton x:Name="_1_week_RadioButton1" GroupName="narrow" x:Uid="1week" Content="" Checked="_1_week_RadioButton_Checked"/>
+            <RadioButton x:Name="no_notif_RadioButton1" GroupName="narrow" x:Uid="No_show notifications" Content="" Checked="No_notif_RadioButton_Checked"/>
+        </StackPanel>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="WindowStates">
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="640"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Boton_Ok.FontSize" Value="25"/>
+                        <Setter Target="Boton_Cancel.FontSize" Value="25"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="50" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="time_options_StackPanel.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="time_options_StackPanel_for_narrow.(Visibility)" Value="Visible"/>
+                        <Setter Target="DatePicker.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="DatePicker_for_narrow.(Visibility)" Value="Visible"/>
+                        <Setter Target="Buttons_Grid.ColumnSpan" Value="2"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>

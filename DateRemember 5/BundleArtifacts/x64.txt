@@ -1,0 +1,2 @@
+MainPackage=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\x64\Release\DateRemember 5_1.0.5.0_x64.appx
+SymbolPackage=D:\Projects\DateRemember\DateRemember8\DateRemember 5\AppPackages\DateRemember 5_1.0.5.0_Test\DateRemember 5_1.0.5.0_x64.appxsym

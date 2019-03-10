@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-en"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\Upload\split.language-en.pri"			"resources.pri"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura6.PNG"			"Assets\en-US\Captura6.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura5.PNG"			"Assets\en-US\Captura5.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura4.PNG"			"Assets\en-US\Captura4.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura3.PNG"			"Assets\en-US\Captura3.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura2.PNG"			"Assets\en-US\Captura2.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura1.PNG"			"Assets\en-US\Captura1.PNG"
+"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x86\Release\PackageUploadLayout\Assets\en-US\Captura0.PNG"			"Assets\en-US\Captura0.PNG"

@@ -1,0 +1,7 @@
+MainPackage=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_ARM.appx
+SymbolPackage=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0\DateRemember 5_1.0.5.0_ARM.appxsym
+ResourcePack=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_language-en.appx
+ResourcePack=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_scale-100.appx
+ResourcePack=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_scale-125.appx
+ResourcePack=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_scale-150.appx
+ResourcePack=D:\Projects\DateRemember\DateRemember8\DateRemember 5\bin\ARM\Release\Upload\DateRemember 5_1.0.5.0_scale-400.appx

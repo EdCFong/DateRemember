@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="65009EdCFongDeveloper.DateRemember" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN-US,ES-ES</Language>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="Add_Date.xbf" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Add_Date.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DateRemember 5.xr.xml" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/DateRemember 5.xr.xml">
+				<Candidate type="Path">
+					<Value>DateRemember 5.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_Page.xbf" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Help_Page.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Birthday.jpg" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Birthday.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Birthday.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura0.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura0.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura0.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura1.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura1.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura1.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura2.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura2.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura2.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura3.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura3.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura3.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura4.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura4.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura4.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura5.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura5.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura5.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Captura6.PNG" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Captura6.PNG">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="Path">
+						<Value>Assets\es-ES\Captura6.PNG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Save_the_date.jpg" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Save_the_date.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Save_the_date.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sky.jpg" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/sky.jpg">
+					<Candidate type="Path">
+						<Value>Assets\sky.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Data.Sqlite.Properties.Resources">
+			<NamedResource name="AlreadyLoaded" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/AlreadyLoaded">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The SQLite library is already loaded. UseWinSqlite3 must be called before using SQLite.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AmbiguousParameterName" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/AmbiguousParameterName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot bind the value for parameter '{parameterName}' because multiple matching parameters were found in the command text. Specify the parameter name with the symbol prefix, e.g. '@{parameterName}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CalledOnNullValue" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/CalledOnNullValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The data is NULL at ordinal {ordinal}. This method can't be called on NULL values. Check using IsDBNull before calling.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CallRequiresOpenConnection" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/CallRequiresOpenConnection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{methodName} can only be called when the connection is open.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CallRequiresSetCommandText" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/CallRequiresSetCommandText">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>CommandText must be set before {methodName} can be called.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotStoreNaN" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/CannotStoreNaN">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot store 'NaN' values.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConnectionStringRequiresClosedConnection" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/ConnectionStringRequiresClosedConnection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>ConnectionString cannot be set when the connection is open.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ConvertFailed" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/ConvertFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot convert object of type '{sourceType}' to object of type '{targetType}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataReaderClosed" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/DataReaderClosed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid attempt to call {operation} when reader is closed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DataReaderOpen" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/DataReaderOpen">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An open reader is already associated with this command. Close it before opening a new one.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultNativeError" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/DefaultNativeError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>For more information on this error code see http://sqlite.org/rescode.html</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidCacheMode" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidCacheMode">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The cache mode '{mode}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidCommandBehavior" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidCommandBehavior">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The CommandBehavior '{behavior}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidCommandType" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidCommandType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The CommandType '{commandType}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidEnumValue" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidEnumValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The {enumType} enumeration value, {value}, is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidIsolationLevel" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidIsolationLevel">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The IsolationLevel '{isolationLevel}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidParameterDirection" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/InvalidParameterDirection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The ParameterDirection '{direction}' is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KeywordNotSupported" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/KeywordNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Keyword not supported: '{keyword}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MissingParameters" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/MissingParameters">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Must add values for the following parameters: {parameters}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NoData" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/NoData">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No data exists for the row/column.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OpenRequiresSetConnectionString" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/OpenRequiresSetConnectionString">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>ConnectionString must be set before Open can be called.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ParallelTransactionsNotSupported" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/ParallelTransactionsNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SqliteConnection does not support nested transactions.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ParameterNotFound" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/ParameterNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A SqliteParameter with ParameterName '{parameterName}' is not contained by this SqliteParameterCollection.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RequiresSet" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/RequiresSet">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{propertyName} must be set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SetRequiresNoOpenReader" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/SetRequiresNoOpenReader">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An open reader is associated with this command. Close it before changing the {propertyName} property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SqliteNativeError" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/SqliteNativeError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SQLite Error {errorCode}: '{message}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionCompleted" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/TransactionCompleted">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>This SqliteTransaction has completed; it is no longer usable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionConnectionMismatch" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/TransactionConnectionMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The transaction object is not associated with the connection object.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TransactionRequired" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/TransactionRequired">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Execute requires the command to have a transaction object when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UDFCalledWithNull" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/UDFCalledWithNull">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The SQL function '{function}' was called with a NULL argument at ordinal {ordinal}. Create the function using a Nullable parameter or rewrite your query to avoid passing NULL.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UnknownDataType" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Microsoft.Data.Sqlite.Properties.Resources/UnknownDataType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No mapping exists from object type {typeName} to a known managed provider native type.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="abril" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/abril">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>abril</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Accept" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Accept">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Aceptar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="agosto" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/agosto">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>agosto</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Are_you_sure_delete_date" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Are_you_sure_delete_date">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>¿Seguro que desea eliminar esta fecha?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Atention" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Atention">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>¡Atención!</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="cancel_alert" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/cancel_alert">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Ops, DateRemember ha dejado de funcionar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Cancel_word" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Cancel_word">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Cancelar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Description_header" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Description_header">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Descripción: </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Dia_faltan_aun" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Dia_faltan_aun">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value> día faltan aún</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="diciembre" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/diciembre">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>diciembre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="enero" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/enero">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>enero</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="faltan" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/faltan">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value> días</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="faltan_aun" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/faltan_aun">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value> días faltan aún </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="febrero" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/febrero">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>febrero</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_0" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_0">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>¡Oh, no! ¡Lo olvidé otra vez!
+Incómodos son los momentos en los que surge esta temida frase, frecuente en esos aniversarios o cumpleaños que por alguna razón no hemos recordado. Dedicada a quienes usan sus dispositivos Windows para zambullirse en sus labores, llega DateRemember; la aplicación que le recordará las fechas importantes que se acercan.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_1" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_1">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Mediante una base de datos, usted podrá registrar las fechas de cumpleaños, aniversarios, conmemoraciones y demás eventos que necesita recordar durante todo el año. DateRemember le notificará cuándo el gran día se acerca. Ya no hay por qué preocuparse... ¡Siempre será avisado a tiempo!</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_2" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_2">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>¿Cómo funciona?</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_3" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_3">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Al iniciar la aplicación se pueden ver cuatro botones, Añadir, Eliminar, Editar y Ayuda. Debajo de estos está el panel donde se visualizarán las fechas, y a un lado, el calendario. Para añadir la primera fecha presionar botón añadir.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_4" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_4">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Al seleccionar añadir se mostrará la ventana de edición. En dicha ventana, a la izquierda, primero se encuentra el selector de la fecha, donde se seleccionará cuándo ocurrirá el evento. A este le sigue el cuadro dónde se escribirá el nombre y, por último, si se desea, una descripción. A la derecha se encuentran las opciones de tiempo, que indicarán la frecuencia con que serán mostradas las notificaciones. Para que el evento esté creado es necesario seleccionar aceptar.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_5" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_5">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>El resultado:</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_6" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_6">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Para eliminar una fecha seleccionar botón Eliminar. La aplicación entrará en modo Eliminar poniéndose en rojo el panel. Luego seleccionar la fecha que se desea eliminar. Oprimir otra vez el botón eliminar para salir del modo Eliminar.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_7" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_7">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Para editar una fecha seleccionar botón Editar. La aplicación entrará en modo Editar poniéndose en amarillo el panel. Luego seleccionar la fecha que se desea editar. Oprimir otra vez el botón Editar para salir del modo Editar. Cuando se seleccione una fecha se navegará a la ventana de edición, Seleccionar aceptar para guardar los cambios.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Help_text_8" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_text_8">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Truco: Al seleccionar cancelar no se guardarán los cambios en el evento, pero si los cambios hechos en la frecuencia de las notificaciones. Si se desea modificarla, añadir una fecha, cambiar la frecuencia, y luego seleccionar cancelar.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Is today!" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Is today!">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>¡Es hoy!</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="julio" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/julio">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>julio</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="junio" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/junio">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>junio</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="marzo" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/marzo">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>marzo</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="mayo" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/mayo">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>mayo</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="meses_y" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/meses_y">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value> meses y </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="noviembre" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/noviembre">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>noviembre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="No_day_selected" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/No_day_selected">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>No olvide seleccionar una fecha</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="No_Description_to_show" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/No_Description_to_show">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>No hay descripción para mostrar</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="No_name" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/No_name">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>No olvide escribir un nombre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="No_repeat_name" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/No_repeat_name">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Ya existe una fecha con ese nombre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="octubre" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/octubre">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>octubre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Only_one_left" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Only_one_left">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Falta solo un día</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Only_one_month" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Only_one_month">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Un mes y </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="septiembre" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/septiembre">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>septiembre</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="solo" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/solo">
+				<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+					<Value>Faltan solo </Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="15min">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/15min/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>15 minutos</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="1day">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/1day/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>1 día</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="1week">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/1week/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>1 semana</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="3days">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/3days/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>3 días</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="4hours">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/4hours/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>4 horas</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="8hours">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/8hours/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>8 horas</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Add_button">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Add_button/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Añadir una fecha</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Cancel">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Cancel/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Cancelar</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Delete_button">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Delete_button/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Eliminar</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Edit_button">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Edit_button/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Editar</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="escriba_descripcion">
+				<NamedResource name="Text" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/escriba_descripcion/Text">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Descripción (opcional):</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="escriba_nombre">
+				<NamedResource name="Text" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/escriba_nombre/Text">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Nombre:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Help_button">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/Help_button/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Ayuda</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="No_show notifications">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/No_show notifications/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>No mostrar notificaciones</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ok">
+				<NamedResource name="Content" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/ok/Content">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Aceptar</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TextBlockHelp">
+				<NamedResource name="Text" uri="ms-resource://65009EdCFongDeveloper.DateRemember/Resources/TextBlockHelp/Text">
+					<Candidate qualifiers="Language-ES-ES" isDefault="true" type="String">
+						<Value>Ayuda</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

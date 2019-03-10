@@ -1,0 +1,4 @@
+D:\Projects\DateRemember\DateRemember8\DataAccess\DataAccess.csproj;neutral
+D:\Projects\DateRemember\DateRemember8\DataAccess\DataAccess.csproj;neutral
+D:\Projects\DateRemember\DateRemember8\DateRemember 5\DateRemember 5.csproj;x86
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\DateRemember_Background_Task.csproj;neutral

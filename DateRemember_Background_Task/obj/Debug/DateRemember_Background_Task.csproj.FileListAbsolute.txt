@@ -1,0 +1,79 @@
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pri
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csproj.CoreCompileInputs.cache
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmdobj
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.compile.pdb
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\priconfig.xml
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\priconfig.xml.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\resources.resfiles
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\resources.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\pri.resfiles
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\pri.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\qualifiers.txt
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\DateRemember\DateRemember 6\DateRemember_Background_Task\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pri
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DataAccess.dll
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DataAccess.pdb
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\bin\Debug\DataAccess.pri
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csprojAssemblyReference.cache
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csproj.CoreCompileInputs.cache
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csproj.CopyComplete
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmdobj
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.compile.pdb
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\priconfig.xml
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\priconfig.xml.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\resources.resfiles
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\resources.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\pri.resfiles
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\pri.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\qualifiers.txt
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\DateRemember\DateRemember7\DateRemember_Background_Task\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DateRemember_Background_Task.pri
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DataAccess.dll
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DataAccess.pdb
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\bin\Debug\DataAccess.pri
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csprojAssemblyReference.cache
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csproj.CoreCompileInputs.cache
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmd
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.pdb
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.csproj.CopyComplete
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.winmdobj
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\DateRemember_Background_Task.compile.pdb
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\priconfig.xml
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\priconfig.xml.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\filtered.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\excluded.layout.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\resources.resfiles
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\resources.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\pri.resfiles
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\pri.resfiles.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\qualifiers.txt
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\qualifiers.txt.intermediate
+D:\Projects\DateRemember\DateRemember8\DateRemember_Background_Task\obj\Debug\MultipleQualifiersPerDimensionFound.txt

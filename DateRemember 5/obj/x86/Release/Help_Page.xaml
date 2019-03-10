@@ -1,0 +1,113 @@
+﻿<Page
+    x:Class="DateRemember_5.Help_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DateRemember_5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition x:ConnectionId='2' x:Name="row0"  Height="3*" MinHeight="70" />
+            <RowDefinition x:ConnectionId='3' x:Name="row1" Height="1*" MinHeight="22"/>
+            <RowDefinition x:ConnectionId='4' x:Name="row2" Height="2*" MinHeight="35"/>
+            <RowDefinition x:ConnectionId='5' x:Name="row3" Height="18*"/>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='6' x:Name="Back_button" Grid.Row="0" Height="42"  VerticalAlignment="Center" Width="111" Style="{StaticResource NavigationBackButtonNormalStyle}"                          />
+        <Rectangle Grid.Row="1" Height="7" Style="{StaticResource Blue_line}" Margin="40,0,20,20" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock"  Grid.Row="2"  x:Uid="TextBlockHelp" Text="" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="40,0,0,0" FontFamily="Papyrus" FontSize="24" />
+        <ScrollViewer x:ConnectionId='8' x:Name="scroll1"  Grid.Row="3" VerticalScrollBarVisibility="Auto">
+            <RichTextBlock x:ConnectionId='9' x:Name="TextHelp"  Margin="40,20" FontFamily="Courier New" TextLineBounds="Full" LineHeight="2">
+                <Paragraph x:ConnectionId='10' x:Name="paragraph0" FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_0}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='11' x:Name="paragraph1"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_1}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='12' x:Name="paragraph2"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_2}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='13' x:Name="paragraph3"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_3}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='14' x:Name="paragraph_img_0" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura0.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='15' x:Name="paragraph4"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_4}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='16' x:Name="paragraph_img_1" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura1.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph>
+                <Paragraph x:ConnectionId='17' x:Name="paragraph5"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_5}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='18' x:Name="paragraph_img_2" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura2.PNG" Margin="0,5,0,4" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='19' x:Name="paragraph_img_3" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura3.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='20' x:Name="paragraph6"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_6}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='21' x:Name="paragraph_img_4" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura4.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='22' x:Name="paragraph7"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_7}"/>
+                </Paragraph>
+                <Paragraph FontFamily="Segoe UI" FontSize="10" TextAlignment="Justify">
+                    <Run Text ="   "/>
+                </Paragraph>
+                <Paragraph x:ConnectionId='23' x:Name="paragraph_img_5" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura5.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='24' x:Name="paragraph_img_6" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image Source="Assets/Captura6.PNG" Margin="0,5,0,5" />
+                    </InlineUIContainer>
+                </Paragraph >
+                <Paragraph x:ConnectionId='25' x:Name="paragraph8"  FontFamily="Segoe UI" FontSize="16" TextAlignment="Justify">
+                    <Run Text ="{Binding text_8}"/>
+                </Paragraph>
+            </RichTextBlock>
+        </ScrollViewer>
+        
+    </Grid>
+</Page>
+

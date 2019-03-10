@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abril" xml:space="preserve">
+    <value>abril</value>
+  </data>
+  <data name="agosto" xml:space="preserve">
+    <value>agosto</value>
+  </data>
+  <data name="diciembre" xml:space="preserve">
+    <value>diciembre</value>
+  </data>
+  <data name="enero" xml:space="preserve">
+    <value>enero</value>
+  </data>
+  <data name="faltan" xml:space="preserve">
+    <value> días</value>
+  </data>
+  <data name="febrero" xml:space="preserve">
+    <value>febrero</value>
+  </data>
+  <data name="julio" xml:space="preserve">
+    <value>julio</value>
+  </data>
+  <data name="junio" xml:space="preserve">
+    <value>junio</value>
+  </data>
+  <data name="marzo" xml:space="preserve">
+    <value>marzo</value>
+  </data>
+  <data name="mayo" xml:space="preserve">
+    <value>mayo</value>
+  </data>
+  <data name="meses_y" xml:space="preserve">
+    <value> meses y </value>
+  </data>
+  <data name="noviembre" xml:space="preserve">
+    <value>noviembre</value>
+  </data>
+  <data name="octubre" xml:space="preserve">
+    <value>octubre</value>
+  </data>
+  <data name="septiembre" xml:space="preserve">
+    <value>septiembre</value>
+  </data>
+  <data name="solo" xml:space="preserve">
+    <value>Faltan solo </value>
+  </data>
+  <data name="Cancel.Content" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Is today!" xml:space="preserve">
+    <value>¡Es hoy!</value>
+  </data>
+  <data name="ok.Content" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="15min.Content" xml:space="preserve">
+    <value>15 minutos</value>
+  </data>
+  <data name="1day.Content" xml:space="preserve">
+    <value>1 día</value>
+  </data>
+  <data name="1week.Content" xml:space="preserve">
+    <value>1 semana</value>
+  </data>
+  <data name="3days.Content" xml:space="preserve">
+    <value>3 días</value>
+  </data>
+  <data name="4hours.Content" xml:space="preserve">
+    <value>4 horas</value>
+  </data>
+  <data name="8hours.Content" xml:space="preserve">
+    <value>8 horas</value>
+  </data>
+  <data name="escriba_descripcion.Text" xml:space="preserve">
+    <value>Descripción (opcional):</value>
+  </data>
+  <data name="escriba_nombre.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="Add_button.Content" xml:space="preserve">
+    <value>Añadir una fecha</value>
+  </data>
+  <data name="Delete_button.Content" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Help_button.Content" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="No_day_selected" xml:space="preserve">
+    <value>No olvide seleccionar una fecha</value>
+  </data>
+  <data name="No_name" xml:space="preserve">
+    <value>No olvide escribir un nombre</value>
+  </data>
+  <data name="Description_header" xml:space="preserve">
+    <value>Descripción: </value>
+  </data>
+  <data name="No_Description_to_show" xml:space="preserve">
+    <value>No hay descripción para mostrar</value>
+  </data>
+  <data name="Are_you_sure_delete_date" xml:space="preserve">
+    <value>¿Seguro que desea eliminar esta fecha?</value>
+  </data>
+  <data name="Atention" xml:space="preserve">
+    <value>¡Atención!</value>
+  </data>
+  <data name="Cancel_word" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Edit_button.Content" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="No_repeat_name" xml:space="preserve">
+    <value>Ya existe una fecha con ese nombre</value>
+  </data>
+  <data name="No_show notifications.Content" xml:space="preserve">
+    <value>No mostrar notificaciones</value>
+  </data>
+  <data name="Dia_faltan_aun" xml:space="preserve">
+    <value> día faltan aún</value>
+  </data>
+  <data name="faltan_aun" xml:space="preserve">
+    <value> días faltan aún </value>
+  </data>
+  <data name="Only_one_left" xml:space="preserve">
+    <value>Falta solo un día</value>
+  </data>
+  <data name="Only_one_month" xml:space="preserve">
+    <value>Un mes y </value>
+  </data>
+  <data name="TextBlockHelp.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Help_text_0" xml:space="preserve">
+    <value>¡Oh, no! ¡Lo olvidé otra vez!
+Incómodos son los momentos en los que surge esta temida frase, frecuente en esos aniversarios o cumpleaños que por alguna razón no hemos recordado. Dedicada a quienes usan sus dispositivos Windows para zambullirse en sus labores, llega DateRemember; la aplicación que le recordará las fechas importantes que se acercan.</value>
+  </data>
+  <data name="Help_text_1" xml:space="preserve">
+    <value>Mediante una base de datos, usted podrá registrar las fechas de cumpleaños, aniversarios, conmemoraciones y demás eventos que necesita recordar durante todo el año. DateRemember le notificará cuándo el gran día se acerca. Ya no hay por qué preocuparse... ¡Siempre será avisado a tiempo!</value>
+  </data>
+  <data name="Help_text_2" xml:space="preserve">
+    <value>¿Cómo funciona?</value>
+  </data>
+  <data name="Help_text_3" xml:space="preserve">
+    <value>Al iniciar la aplicación se pueden ver cuatro botones, Añadir, Eliminar, Editar y Ayuda. Debajo de estos está el panel donde se visualizarán las fechas, y a un lado, el calendario. Para añadir la primera fecha presionar botón añadir.</value>
+  </data>
+  <data name="Help_text_4" xml:space="preserve">
+    <value>Al seleccionar añadir se mostrará la ventana de edición. En dicha ventana, a la izquierda, primero se encuentra el selector de la fecha, donde se seleccionará cuándo ocurrirá el evento. A este le sigue el cuadro dónde se escribirá el nombre y, por último, si se desea, una descripción. A la derecha se encuentran las opciones de tiempo, que indicarán la frecuencia con que serán mostradas las notificaciones. Para que el evento esté creado es necesario seleccionar aceptar.</value>
+  </data>
+  <data name="Help_text_5" xml:space="preserve">
+    <value>El resultado:</value>
+  </data>
+  <data name="Help_text_6" xml:space="preserve">
+    <value>Para eliminar una fecha seleccionar botón Eliminar. La aplicación entrará en modo Eliminar poniéndose en rojo el panel. Luego seleccionar la fecha que se desea eliminar. Oprimir otra vez el botón eliminar para salir del modo Eliminar.</value>
+  </data>
+  <data name="Help_text_7" xml:space="preserve">
+    <value>Para editar una fecha seleccionar botón Editar. La aplicación entrará en modo Editar poniéndose en amarillo el panel. Luego seleccionar la fecha que se desea editar. Oprimir otra vez el botón Editar para salir del modo Editar. Cuando se seleccione una fecha se navegará a la ventana de edición, Seleccionar aceptar para guardar los cambios.</value>
+  </data>
+  <data name="Help_text_8" xml:space="preserve">
+    <value>Truco: Al seleccionar cancelar no se guardarán los cambios en el evento, pero si los cambios hechos en la frecuencia de las notificaciones. Si se desea modificarla, añadir una fecha, cambiar la frecuencia, y luego seleccionar cancelar.</value>
+  </data>
+  <data name="cancel_alert" xml:space="preserve">
+    <value>Ops, DateRemember ha dejado de funcionar</value>
+  </data>
+</root>

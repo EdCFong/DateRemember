@@ -1,0 +1,195 @@
+﻿<Page
+    x:Class="DateRemember_5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DateRemember_5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/sky.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*" x:Name="Second_column_Main_grid"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" MinHeight="80"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="auto" x:Name="Hidden_row"/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="Grid_botones" Grid.Column="0" Grid.Row="0" Margin="8,0,8,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*" x:Name="Adding_date_column"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Add_Date_boton"     Grid.Column="0"  x:Uid="Add_button"    Content="" Margin="5,5" Click="Add_Date_boton_Click" />
+            <Button x:Name="Delete_Date_boton"  Grid.Column="1"  x:Uid="Delete_button" Content="" Margin="5,5" Click="Delete_Date_boton_Click"/>
+            <Button x:Name="Edit_boton"         Grid.Column="2"  x:Uid="Edit_button"   Content="" Margin="5,5" Click="Edit_boton_Click"  />
+            <Button x:Name="Help_boton"         Grid.Column="3"  x:Uid="Help_button"   Content="" Margin="5,5" Click="Help_boton_Click"/>
+            <Button x:Name="Delete_Date_boton_Narrow" Grid.Column="1" Margin="5,5" Visibility="Collapsed" Click="Delete_Date_boton_Click">
+                <SymbolIcon Symbol="Delete"/>
+            </Button>
+            <Button x:Name="Edit_boton_Narrow"        Grid.Column="2" Margin="5,5" Visibility="Collapsed" Click="Edit_boton_Click">
+                <SymbolIcon Symbol="Edit"/>
+            </Button>
+            <Button x:Name="Help_boton_Narrow"        Grid.Column="3" Margin="5,5" Visibility="Collapsed" Click="Help_boton_Click">
+                <SymbolIcon Symbol="Help"/>
+            </Button>
+        </Grid>
+        <Grid x:Name="Calendar_Grid" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" x:Name="First_Row_Calendar_Grid"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <CalendarView x:Name="The_calendar"  Grid.Row="0" HorizontalAlignment="Stretch" Margin="20" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" SelectionMode="Multiple" Background="#882E94F0"/>
+            <TextBlock x:Name="Description_TextBlock" Grid.Row="1" FontFamily="Century Schoolbook" Margin="30,30" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        </Grid >
+        <ListView  x:Name="Dates_ListView" HorizontalAlignment="Stretch" Margin="15,15"  VerticalAlignment="Stretch" MinWidth="440" MinHeight="440"  Grid.Column="0" Grid.Row="1" IsItemClickEnabled="True" Background="#882E94F0" SelectionChanged="Dates_ListView_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <StackPanel  Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,10,10,0" Orientation="Horizontal">
+                            <SymbolIcon Symbol="Calendar" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch"  VerticalAlignment="Center">
+                            <TextBlock  Text="{Binding Name }" Width="Auto" FontFamily="Century Schoolbook" FontSize="14" FontWeight="Bold"/>
+                            <TextBlock  Text="{Binding Month_Day }" Width="Auto" FontFamily="Century Schoolbook" Opacity="0.65" Margin="0,0,0,0"/>
+                            <TextBlock  Text="{Binding How_many_days_left }" Width="Auto" FontFamily="Century Schoolbook" Opacity="1" FontSize="12" FontStyle="Italic" Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView  x:Name="Dates_ListView_for_delete"  Background="#88F86458" HorizontalAlignment="Stretch" Margin="15,15"  VerticalAlignment="Stretch" MinWidth="440" MinHeight="440"  Grid.Column="0" Grid.Row="1" IsItemClickEnabled="True" SelectionChanged="Dates_ListView_for_delete_SelectionChanged" Visibility="Collapsed">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <StackPanel  Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,10,10,0" Orientation="Horizontal">
+                            <SymbolIcon Symbol="Calendar" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <SymbolIcon Symbol="Delete" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20,0,10,0"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch"  VerticalAlignment="Center">
+                            <TextBlock  Text="{Binding Name }" Width="Auto" FontFamily="Century Schoolbook" FontSize="14" FontWeight="Bold"/>
+                            <TextBlock  Text="{Binding Month_Day }" Width="Auto" FontFamily="Century Schoolbook" Opacity="0.65" Margin="0,0,0,0"/>
+                            <TextBlock  Text="{Binding How_many_days_left }" Width="Auto" FontFamily="Century Schoolbook" Opacity="1" FontSize="12" FontStyle="Italic" Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView  x:Name="Dates_ListView_for_edit"  Background="#88F4D742" HorizontalAlignment="Stretch" Margin="15,15"  VerticalAlignment="Stretch" MinWidth="440" MinHeight="440"  Grid.Column="0" Grid.Row="1" IsItemClickEnabled="True" SelectionChanged="Dates_ListView_for_edit_SelectionChanged" Visibility="Collapsed">
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <StackPanel  Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10,10,10,0" Orientation="Horizontal">
+                            <SymbolIcon Symbol="Calendar" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            <SymbolIcon Symbol="Edit" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20,0,10,0"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch"  VerticalAlignment="Center">
+                            <TextBlock  Text="{Binding Name }" Width="Auto" FontFamily="Century Schoolbook" FontSize="14" FontWeight="Bold"/>
+                            <TextBlock  Text="{Binding Month_Day }" Width="Auto" FontFamily="Century Schoolbook" Opacity="0.65" Margin="0,0,0,0"/>
+                            <TextBlock  Text="{Binding How_many_days_left }" Width="Auto" FontFamily="Century Schoolbook" Opacity="1" FontSize="12" FontStyle="Italic" Margin="0,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="WindowStates">
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1300"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Add_Date_boton.FontSize" Value="35"/>
+                        <Setter Target="Delete_Date_boton.FontSize" Value="35"/>
+                        <Setter Target="Edit_boton.FontSize" Value="35"/>
+                        <Setter Target="Help_boton.FontSize" Value="35"/>
+                        <Setter Target="The_calendar.(Visibility)" Value="Visible"/>
+                        <Setter Target="Description_TextBlock.(Visibility)" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="State_1">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1000"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Add_Date_boton.FontSize" Value="25"/>
+                        <Setter Target="Delete_Date_boton.FontSize" Value="25"/>
+                        <Setter Target="Edit_boton.FontSize" Value="25"/>
+                        <Setter Target="Help_boton.FontSize" Value="25"/>
+                        <Setter Target="The_calendar.(Visibility)" Value="Visible"/>
+                        <Setter Target="Description_TextBlock.(Visibility)" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="State_2">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="840"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Add_Date_boton.FontSize" Value="20"/>
+                        <Setter Target="Delete_Date_boton.FontSize" Value="20"/>
+                        <Setter Target="Edit_boton.FontSize" Value="20"/>
+                        <Setter Target="Help_boton.FontSize" Value="20"/>
+                        <Setter Target="The_calendar.(Visibility)" Value="Visible"/>
+                        <Setter Target="Description_TextBlock.(Visibility)" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="State_3">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Add_Date_boton.FontSize" Value="12"/>
+                        <Setter Target="Delete_Date_boton.FontSize" Value="12"/>
+                        <Setter Target="Edit_boton.FontSize" Value="12"/>
+                        <Setter Target="Help_boton.FontSize" Value="12"/>
+                        <Setter Target="The_calendar.(Visibility)" Value="Visible"/>
+                        <Setter Target="Description_TextBlock.(Visibility)" Value="Visible"/>
+                        <Setter Target="Dates_ListView.MinWidth" Value="350"/>
+                        <Setter Target="Dates_ListView.MinHeight" Value="260"/>
+                        <Setter Target="Dates_ListView_for_delete.MinWidth" Value="300"/>
+                        <Setter Target="Dates_ListView_for_delete.MinHeight" Value="260"/>
+                        <Setter Target="Dates_ListView_for_edit.MinWidth" Value="350"/>
+                        <Setter Target="Dates_ListView_for_edit.MinHeight" Value="260"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="20" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Add_Date_boton.FontSize" Value="18"/>
+                        <Setter Target="Delete_Date_boton.FontSize" Value="18"/>
+                        <Setter Target="Edit_boton.FontSize" Value="18"/>
+                        <Setter Target="Help_boton.FontSize" Value="18"/>
+                        <Setter Target="The_calendar.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="Hidden_row.Height" Value="2*"/>
+                        <Setter Target="Calendar_Grid.(Grid.Column)" Value="0"/>
+                        <Setter Target="Calendar_Grid.(Grid.Row)" Value="2"/>
+                        <Setter Target="First_Row_Calendar_Grid.Height" Value="auto"/>
+                        <Setter Target="Second_column_Main_grid.Width" Value="auto"/>
+                        <Setter Target="Dates_ListView.MinWidth" Value="300"/>
+                        <Setter Target="Dates_ListView.MinHeight" Value="300"/>
+                        <Setter Target="Dates_ListView_for_delete.MinWidth" Value="300"/>
+                        <Setter Target="Dates_ListView_for_delete.MinHeight" Value="300"/>
+                        <Setter Target="Dates_ListView_for_edit.MinWidth" Value="300"/>
+                        <Setter Target="Dates_ListView_for_edit.MinHeight" Value="300"/>
+                        <Setter Target="Delete_Date_boton.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="Edit_boton.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="Help_boton.(Visibility)" Value="Collapsed"/>
+                        <Setter Target="Delete_Date_boton_Narrow.(Visibility)" Value="Visible"/>
+                        <Setter Target="Edit_boton_Narrow.(Visibility)" Value="Visible"/>
+                        <Setter Target="Help_boton_Narrow.(Visibility)" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+    </Grid>
+</Page>

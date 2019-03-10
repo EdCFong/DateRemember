@@ -1,0 +1,12 @@
+﻿/ref:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\eduar\.nuget\packages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\in\\"
+/ref:"C:\Users\eduar\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\tools\x64\ilc\lib\Private\\"
+/ref:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\in"
+/ref:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\eduar\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\csc"
+/out:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\DateRemember 5.Sg"
+"@D:\Projects\DateRemember\DateRemember8\DateRemember 5\obj\x64\Release\ilc\intermediate\DateRemember 5.Sg\ComputedSerializationInput.txt"
