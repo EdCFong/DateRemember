@@ -109,7 +109,7 @@ namespace DateRemember_5
                 {
                     Show_description(Dates_ListView_for_edit.SelectedIndex);
                     Show_date_in_the_calendar(Dates_ListView_for_edit.SelectedIndex);
-                    this.Frame.Navigate(typeof(Add_Date), Dates_ListView_for_edit.SelectedIndex);
+                    this.Frame.Navigate(typeof(Add_Date), Dates_ListView_for_edit.SelectedIndex);                   
                 }
             }
             catch
@@ -128,7 +128,10 @@ namespace DateRemember_5
                 Dates_ListView.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_edit.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_delete.Visibility = Visibility.Visible;
-                // Dates_ListView.Background = new SolidColorBrush(Color.FromArgb(255, 248, 100, 88));
+                Delete_Date_boton.Background = new SolidColorBrush(Color.FromArgb(88, 248, 100, 88)); //#88F86458  red
+                Delete_Date_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 248, 100, 88));
+                Edit_boton.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));  //#881167E8  blue
+                Edit_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));
             }
             else
             {
@@ -136,6 +139,8 @@ namespace DateRemember_5
                 Dates_ListView.Visibility = Visibility.Visible;
                 Dates_ListView_for_delete.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_edit.Visibility = Visibility.Collapsed;
+                Delete_Date_boton.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));  //#881167E8  blue
+                Delete_Date_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));
             }
         }
 
@@ -149,6 +154,10 @@ namespace DateRemember_5
                 Dates_ListView.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_delete.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_edit.Visibility = Visibility.Visible;
+                Edit_boton.Background = new SolidColorBrush(Color.FromArgb(88, 244, 215, 66)); //#88F4D742  yellow
+                Edit_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 244, 215, 66));
+                Delete_Date_boton.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));  //#881167E8  blue
+                Delete_Date_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));
             }
             else
             {
@@ -156,6 +165,8 @@ namespace DateRemember_5
                 Dates_ListView.Visibility = Visibility.Visible;
                 Dates_ListView_for_edit.Visibility = Visibility.Collapsed;
                 Dates_ListView_for_delete.Visibility = Visibility.Collapsed;
+                Edit_boton.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));  //#881167E8  blue
+                Edit_boton_Narrow.Background = new SolidColorBrush(Color.FromArgb(88, 17, 103, 232));
             }
         }
 
